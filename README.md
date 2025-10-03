@@ -1,1 +1,3 @@
 # Projeto_Dados_Telegram
+
+O projeto consiste em criar uma arquitetura de captura de mensagens de um grupo do Telegram por um chatbot. A primeira parte do projeto é o processamento e armazenamento das mensagens do grupo e a segunda parte a análise através da AWS. Foi utilizado AWS API Gateway para a captura das mensagens, AWS Lambda para o gatilho e salvar o arquivo, AWS Event bridge para acionar o AWS Lambda, AWS S3 para armazenamento particionado do dia e AWS Athena para consultas analíticas. Ao final, pode-se realizar diversas consultas aos dados armazenados e tirar diversos insights como quantidade de mensagens por dia ou por usuário entre outros.
